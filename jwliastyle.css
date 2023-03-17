@@ -1,0 +1,439 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65.2%;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlinks{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+nav, nav a {
+    color: rgb(50,57,67);
+    font-size: 1rem;
+}
+nav button{
+    color: white;
+    background: rgb(50,57,67);
+    width: 10%;
+    height: 20px;
+    font-size: 1rem;
+}
+.sneakyBuns{
+    display: none;
+}
+.top section{
+    width: 60%;
+}
+.top div{
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+h1{
+    font-size: 2rem;
+}
+h1+p{
+    font-size: 1.5rem;
+}
+.top fieldset{
+    padding-left: 25px;
+    padding-bottom: 30px;
+    border: 0px;
+}
+.top input{
+    width: 45%;
+    height: 25px;
+    border-radius: 5px;
+}
+.top fieldset button{
+    width: 20%;
+    height: 25px;
+    color: white;
+    background-color: rgb(182,197,208);
+    border-radius: 5px;
+    border: .5px;
+}
+.slim{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    width: 75%;
+    font-size: 2rem;
+    text-align: center;
+}
+.slim div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slim div p{
+    width: 40%;
+    text-align: left;
+    font-size: 1rem;
+    border-top:2px solid rgb(255	218	240	);
+    position: relative;
+}
+.slim div p:after{
+    content: "";
+    width:50%;
+    height:2px;/* slight higher to work around rounding errors(?) on some zoom levels in some browsers. */
+    background-color:white;
+    position: absolute;
+    right:0;
+    top:-2px;
+}
+.slim strong{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.slim>p{
+    width: 60%;
+    text-align: center;
+    font-style: italic;
+    color: rgb(142, 154, 162);
+}
+.big{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(241	243	245	);
+}
+.big>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+}
+h3{
+    font-size: 2rem;
+}
+.big div p{
+    width: 90%;
+    font-size: 1rem;
+}
+.big>div+div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.photobucket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big img{
+    width: 80%;
+}
+.photobucket span{
+    color: rgb(50,57,67);
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.feat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.feat div{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-bottom: 10px;
+
+}
+.feat div div{
+    display: flex;
+    flex-direction: column;
+}
+.feat img{
+    width: 20%;
+    margin-left: 5%;
+}
+h4{
+    font-size: 1.5rem;
+}
+.feat p{
+    width: 90%;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.bottom section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.bottom h5{
+    width: 70%;
+    height: 30px;
+    font-size: 1.5rem;
+    color: rgb(50,57,67);
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.simmons{
+    background: url(simmons.png);
+    color: rgba(0, 0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bottom p{
+    width: 90%;
+    padding-bottom: 30px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(182 197 209);	
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.newsletter h6{
+    width: 40%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0px;
+}
+.newsletter input{
+    width: 30%;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.newsletter button{
+    width: 12%;
+    height: 30px;
+    color: white;
+    background: rgb(141	156	164);
+    border: 0px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.map{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(141	156	164);
+    color: white;
+}
+.map div{
+    width: 100%;
+    display: flex;
+    margin-right: 40px;
+}
+div.slice{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(141	156	164	);
+}
+.slice div{
+    width: 70%;
+    padding: 0px;
+    padding-left: 40px;
+}
+.map div ul{
+    display: flex;
+    width: 30%;
+    justify-self: flex-end;
+    padding-right: 40px;
+}
+.map ul{
+    display: flex;
+    justify-content: space-between;
+}
+.lorgeMap{
+    font-weight: 700;
+    border-top: solid 1px white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 0px;
+}
+.lorgeMap ul{
+    font-weight: 300;
+}
+.map ul ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    justify-content: flex-start;
+}
+@media screen and (max-width: 1000px){
+    .big{
+        display: flex;
+        flex-direction: column;
+    }
+    .big>div+div{
+        width: 80%;
+    }
+    .photobucket img{
+        width: 80%;
+    }
+    .photobucket span{
+        font-size: 1.5rem;
+    }
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom section{
+        width: 80%;
+    }
+}
+@media screen and (max-device-width: 1100px){
+    .big{
+        display: flex;
+        flex-direction: column;
+    }
+    .big>div+div{
+        width: 80%;
+    }
+    .photobucket img{
+        width: 80%;
+    }
+    .photobucket span{
+        font-size: 1.5rem;
+    }
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom section{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 800px){
+    .bottom{
+        display: none;
+    }
+    div.photoSilo div{
+        display: none;
+    }
+    .top fieldset{
+        padding-bottom: 10px;
+    }
+    .top div{
+        padding-bottom: 0px;
+    }
+}
+@media screen and (max-device-width: 800px){
+    .bottom{
+        display: none;
+    }
+    div.photoSilo div{
+        display: none;
+    }
+    .top fieldset{
+        padding-bottom: 10px;
+    }
+    .top div{
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bottom{
+        display: none;
+    }
+    div.photoSilo div{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 600px){
+    .bottom{
+        display: none;
+    }
+    div.photoSilo div{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px){
+    .big{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .navlinks{
+        display: none;
+    }
+    .sneakyBuns{
+        display: flex;
+        color: rgb(18, 30, 38);
+        width: 10%;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-device-width: 500px){
+    .big{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .navlinks{
+        display: none;
+    }
+    .sneakyBuns{
+        display: flex;
+        color: rgb(18, 30, 38);
+        width: 10%;
+        font-size: 3rem;
+    }
+}
