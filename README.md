@@ -1,5 +1,5 @@
 # JWLIA Mirror
-A duplication of the JWLIA homepage.
+A duplication of the JWLIA homepage. I added media queries to make it responsive.
 
 [Check it out here :sparkles:](https://jwliamirror.netlify.app)
 
