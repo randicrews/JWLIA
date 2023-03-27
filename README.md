@@ -1,9 +1,11 @@
 # JWLIA Mirror
 A duplication of the JWLIA homepage. I added media queries to make it responsive.
 
-![JWLIAMirror](https://github.com/randicrews/JWLIA/blob/main/JWLIA.gif)
-
 [Check it out here :sparkles:](https://jwliamirror.netlify.app)
+
+<a href="https://jwliamirror.netlify.app" target="_blank">
+    <img src="https://github.com/randicrews/JWLIA/blob/main/JWLIA.gif"/>
+</a>
 
 ## USING 
 - HTML
